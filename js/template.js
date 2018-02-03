@@ -5,7 +5,7 @@
     this.defaultTemplate =
       '<li data-id="{{id}}" class="{{done}}">'
       +   '<div class="view">'
-      +     '<input class="toogle" type="checkbox" {{checked}}/>'
+      +     '<input class="toggle" type="checkbox" {{checked}}/>'
       +     '<label>{{title}}</label>'
       +     '<button class="destroy"></button>'
       +   '</div>'
